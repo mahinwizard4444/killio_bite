@@ -465,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('JOIN', callback_data='source')
         ], [
-            InlineKeyboardButton(🎁 JOIN'', callback_data='info')
+            InlineKeyboardButton(🎁 JOIN', callback_data='info')
         ], [
             InlineKeyboardButton('👋 Exᴛʀᴀ', callback_data='mods')
         ], [
@@ -495,7 +495,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('😊 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ☺', url='https://Github.com/TamilanBotsZ/PremiumFilter')
+            InlineKeyboardButton('🍿 JOIN', url='https://t.me/onlyseries76')
         ],[
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]       
