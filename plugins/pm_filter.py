@@ -392,7 +392,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=HOW_TO_DOWNLOAD)
+                    InlineKeyboardButton('🎁 JOIN', url=HOW_TO_DOWNLOAD)
                 ],
                 [
                     InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
@@ -617,9 +617,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('🐱‍🏍 MOVIE', url='https://t.me/MovieWalkerGroup')
+            InlineKeyboardButton('📽️ MOVIE', url='https://t.me/MovieWalkerGroup')
         ], [     
-            InlineKeyboardButton('🐱‍🚀 SERIES', url='https://t.me/onlyseries76')
+            InlineKeyboardButton('📹 SERIES', url='https://t.me/onlyseries76')
         ], [  
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
