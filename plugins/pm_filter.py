@@ -465,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('JOIN', callback_data='source')
         ], [
-            InlineKeyboardButton(🎁 JOIN', callback_data='info')
+            InlineKeyboardButton('🎁 JOIN', callback_data='info')
         ], [
             InlineKeyboardButton('👋 Exᴛʀᴀ', callback_data='mods')
         ], [
