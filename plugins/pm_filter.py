@@ -440,12 +440,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+5aoApavIMVo1YzQ1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/MovieWalkerGroup'),
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ series 🔍', url='https://t.me/onlyseries76')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('support us', callback_data='sources')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
@@ -457,17 +457,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
+            InlineKeyboardButton('🤖 Movies', url='https://t.me/MovieWalkerGroup'),
             InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('Updates', callback_data='contact')
         ], [
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='source')
+            InlineKeyboardButton('JOIN', callback_data='source')
         ], [
             InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇs Fʀᴏᴍ Mᴇ 😜', callback_data='info')
         ], [
-            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
+            InlineKeyboardButton('👋 Exᴛʀᴀ', callback_data='mods')
         ], [
             InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd')
         ], [
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[ 
             InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
         ],[  
-            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video')
+            InlineKeyboardButton("SUBScribe", callback_data='video')
         ],[
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
         ],[
@@ -578,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://Github.com/TamilanBotsZ/PremiumFilter')
+            InlineKeyboardButton('JOIN', url='https://t.me/MovieWalkerGroup')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://Github.com/TamilanBotsZ/PremiumFilter')
+            InlineKeyboardButton('JOIN', url='https://t.me/MovieWalkerGroup')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -603,9 +603,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Sharath_Links/13')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/MovieWalkerGroup')
         ], [
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('JOIN', callback_data='contact')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -617,9 +617,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/SharathItsIsMe')
+            InlineKeyboardButton('MOVIE', url='https://t.me/MovieWalkerGroup')
         ], [     
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/TamilanBotsZ_Support')
+            InlineKeyboardButton('SERIES', url='https://t.me/onlyseries76')
         ], [  
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
@@ -733,7 +733,7 @@ async def auto_filter(client, msg, spoll=False):
             search = message.text
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
-                await client.send_message(file_req_channel,f"-🦋 #REQUESTED_FILE 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃Cᴏᴅᴇᴅᴇᴅ Bʏ  @Tamilan_BotsZ",
+                await client.send_message(file_req_channel,f"-🦋 #REQUESTED_FILE 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃join  @MovieWalkerGroup",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Fɪʟᴇ Uᴩʟᴏᴀᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ 🔺", callback_data="close_data")]]))
                 l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\nʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ !\n\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝Cᴏɴᴛᴇɴᴛ Nᴀᴍᴇ : {search}\n\n➟ 👮 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ : {message.from_user.first_name}\n\n༺ @TamilanBotsZSupport༻\n\n🦋・‥☆Sᴜᴩᴩᴏʀᴛ Oᴜʀ Cʜᴀɴɴᴇʟ ☆‥・🦋\n╰┈➤・☆ @SharathItsIsMe ☆",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("━ • │▌║  Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴩ  ║▌│ • ━", url=f'http://t.me/{temp.U_NAME}?startgroup=true')],[InlineKeyboardButton("✪ Tᴀᴍɪʟᴀɴ Bᴏᴛs ✪", url="https://t.me/Tamilan_BotsZ"), InlineKeyboardButton("✪ Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ ✪", url="https://t.me/TamilanBotsZ_Support"), InlineKeyboardButton("✪ Rᴇᴩᴏ ✪", url="https://Github.com/TamilanBotsZ/PremiumFilter")],[InlineKeyboardButton("╚»♥️Dᴇʟᴇᴛᴇ Tʜɪs Mᴇssᴀɢᴇ ♥️«╝", callback_data="close_data")]]))
